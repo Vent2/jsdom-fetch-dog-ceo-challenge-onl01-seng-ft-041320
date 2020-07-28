@@ -1,6 +1,5 @@
 console.log('%c HI', 'color: firebrick');
 
-// challenge #1
 const imgUrl = 'https://dog.ceo/api/breeds/image/random/4';
 
 document.addEventListener(
@@ -14,7 +13,6 @@ document.addEventListener(
     })
 );
 
-// chlannege #2
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 
 document.addEventListener(
@@ -30,7 +28,6 @@ document.addEventListener(
     })
 );
 
-// challenge #4
 let selection = document.querySelector('#breed-dropdown');
 selection.addEventListener('select', () => {
     console.log(e);
